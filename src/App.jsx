@@ -1,10 +1,11 @@
 import './App.css'
+import HomePage from './components/HomePage/HomePage'
+
 
 function App() {
-
   return (
     <>
-      <h1>o Thiago é uma bixona</h1>
+      <HomePage />
     </>
   )
 }

@@ -1,0 +1,16 @@
+.HeaderEstilo{
+    width: 400px;
+    height: 50px;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

@@ -1,0 +1,8 @@
+.ClientesEstilo{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: var(--backgroundColor);
+    color: black;
+    text-align: center;
+}

@@ -9,7 +9,6 @@ function App() {
     <Router basename="primeiro-app-react">
       <div>
         <Header />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/clientes" element={<Clientes />} />

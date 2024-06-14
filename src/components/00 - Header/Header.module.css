@@ -6,11 +6,22 @@
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    gap: 25px;
 }
 
 a{
     text-decoration: none;
+    color: var(--backgroundColor);
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+.ativado {
+    background-color: var(--backgroundColor);
     color: black;
 }
-

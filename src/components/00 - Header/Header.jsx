@@ -1,14 +1,24 @@
 import styles from './Header.module.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 function Header() {
   return (
     <div>
       <ul className={styles.HeaderEstilo}>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/clientes">Clientes</Link></li>
+        <li>
+          <NavLink to="/" className={({ isActive }) => isActive ? styles.ativado : ''}>
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/clientes" className={({ isActive }) => isActive ? styles.ativado : ''}>
+            Clientes
+          </NavLink>
+        </li>
       </ul>
     </div>
   )
 }
 
-export default Header
+export default Header;
+

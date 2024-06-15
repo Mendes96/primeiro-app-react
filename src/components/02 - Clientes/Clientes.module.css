@@ -6,3 +6,36 @@
     color: black;
     text-align: center;
 }
+
+button{
+    padding: 10px 25px;
+    border: none;
+    background-color: var(--googleBlue);
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.novaFicha{
+    border: 1px solid var(--googleBlue);
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnErase{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+
+.btnErase:hover{
+    border: 1px solid var(--googleBlue);
+}
+

@@ -3,6 +3,6 @@
     height: 500px;
     margin: 0 auto;
     background-color: var(--backgroundColor);
-    color: black;
+    color: var(--textBlack);
     text-align: center;
 }
